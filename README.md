@@ -8,3 +8,6 @@ Future updates:
 
 - SASS
 - Proper file structure
+- Change default logos
+- Dark mode
+- Proper PWA logic
