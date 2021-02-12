@@ -6,6 +6,5 @@ Todo list web app made using:
 
 Future updates:
 
-- SASS
-- Change default logos
-- Dark mode
+- Add tests
+- Change design (?)
