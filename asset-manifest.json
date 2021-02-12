@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/React-ToDo-PWA/static/css/main.7e89a3d9.chunk.css",
-    "main.js": "/React-ToDo-PWA/static/js/main.a49a6289.chunk.js",
-    "main.js.map": "/React-ToDo-PWA/static/js/main.a49a6289.chunk.js.map",
+    "main.js": "/React-ToDo-PWA/static/js/main.b9a6ec49.chunk.js",
+    "main.js.map": "/React-ToDo-PWA/static/js/main.b9a6ec49.chunk.js.map",
     "runtime-main.js": "/React-ToDo-PWA/static/js/runtime-main.646bff6c.js",
     "runtime-main.js.map": "/React-ToDo-PWA/static/js/runtime-main.646bff6c.js.map",
-    "static/js/2.88962abc.chunk.js": "/React-ToDo-PWA/static/js/2.88962abc.chunk.js",
-    "static/js/2.88962abc.chunk.js.map": "/React-ToDo-PWA/static/js/2.88962abc.chunk.js.map",
+    "static/js/2.23d64baf.chunk.js": "/React-ToDo-PWA/static/js/2.23d64baf.chunk.js",
+    "static/js/2.23d64baf.chunk.js.map": "/React-ToDo-PWA/static/js/2.23d64baf.chunk.js.map",
     "index.html": "/React-ToDo-PWA/index.html",
     "service-worker.js": "/React-ToDo-PWA/service-worker.js",
     "service-worker.js.map": "/React-ToDo-PWA/service-worker.js.map",
     "static/css/main.7e89a3d9.chunk.css.map": "/React-ToDo-PWA/static/css/main.7e89a3d9.chunk.css.map",
-    "static/js/2.88962abc.chunk.js.LICENSE.txt": "/React-ToDo-PWA/static/js/2.88962abc.chunk.js.LICENSE.txt"
+    "static/js/2.23d64baf.chunk.js.LICENSE.txt": "/React-ToDo-PWA/static/js/2.23d64baf.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.646bff6c.js",
-    "static/js/2.88962abc.chunk.js",
+    "static/js/2.23d64baf.chunk.js",
     "static/css/main.7e89a3d9.chunk.css",
-    "static/js/main.a49a6289.chunk.js"
+    "static/js/main.b9a6ec49.chunk.js"
   ]
 }
