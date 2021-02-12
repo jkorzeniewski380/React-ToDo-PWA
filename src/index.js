@@ -8,9 +8,9 @@ import * as serviceWorkerRegistration from './serviceWorkerRegistration';
 const destination = document.querySelector("#container");
 
 ReactDOM.render(
-    <div>
+    <React.StrictMode>
         <TodoList/>
-    </div>,
+    </React.StrictMode>,
     destination
 );
 
