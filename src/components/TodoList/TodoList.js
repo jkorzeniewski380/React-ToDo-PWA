@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import { set, get } from 'idb-keyval';
 import FlipMove from "react-flip-move";
 
 function TodoItems(props) {
@@ -18,10 +19,13 @@ function TodoItems(props) {
       </div>  
     );
 }
-
 function TodoList(props) {
     const [tasks, setTasks] = useState([]);
     const [input, setInput] = useState("");
+
+    useEffect(() => {
+        get("tasks").then(value => setTasks(value ?? []));
+    }, []); 
 
     const updateTasks = (event) => {
         event.preventDefault();
@@ -31,6 +35,10 @@ function TodoList(props) {
                 text: input,
                 key: date
             }))
+            set("tasks", tasks.concat({
+                text: input,
+                key: date
+            }));
         }   
         setInput("");
     };
@@ -38,6 +46,7 @@ function TodoList(props) {
     const deleteJob = (key) => {
         const filtered = tasks.filter(i => i.key !== key);
         setTasks(filtered);
+        set("tasks", filtered);
     }
 
     return (
